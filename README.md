@@ -17,6 +17,15 @@ Your image goes through the JPEG compression pipeline — all handled internally
 
 Images with transparency (PNG, WebP) are composited onto a white background before encoding, since JPG doesn't support alpha channels.
 
+## Before & after
+
+| Before                                | After                                     |
+| ------------------------------------- | ----------------------------------------- |
+| ![Original](image/backiee-243827.jpg) | ![Converted](<image/converted%20(1).jpg>) |
+| **backiee-243827.jpg** — 1,121 KB     | **converted (1).jpg** — 360 KB            |
+
+68% file size reduction at 0.85 quality with no visible loss.
+
 ## Project structure
 
 ```
